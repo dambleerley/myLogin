@@ -9,7 +9,7 @@ function slide()
     img[2] = "bg-3.jpg";
 
     i = 0;
-    
+
     bodyLogin.style.backgroundImage = "url('assts/img/"+img[0]+"')";
 
     function rodarSlide()
@@ -28,4 +28,12 @@ function slide()
     }
 
     setInterval(rodarSlide,slideTime);
+}
+
+function verSenha()
+{
+    verSenha = document.getElementById("input-password-form-login");
+    
+    verSenha.type = "text";
+    
 }
