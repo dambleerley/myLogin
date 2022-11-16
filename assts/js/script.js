@@ -9,6 +9,8 @@ function slide()
     img[2] = "bg-3.jpg";
 
     i = 0;
+    
+    bodyLogin.style.backgroundImage = "url('assts/img/"+img[0]+"')";
 
     function rodarSlide()
     {
@@ -16,7 +18,7 @@ function slide()
         if(i <3)
         {
             bodyLogin.style.backgroundImage = "url('assts/img/"+img[i]+"')";
-            bodyLogin.style.transition = "background-image 0.2s ease-in-out";
+            bodyLogin.style.transition = "background-image 0.5s ease-in-out";
             i=i+1;
         }
         else
